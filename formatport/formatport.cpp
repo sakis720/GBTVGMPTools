@@ -37,10 +37,10 @@ void modifyFile(const std::string& filePath) {
     if (extension == ".tfb" && static_cast<unsigned char>(firstByte) == 0x08) {
         firstByte = 0x09;
         modified = true;
-    } else if (extension == ".bst" && static_cast<unsigned char>(firstByte) == 0x06) {
-        firstByte = 0x08;
-        modified = true;
-    }
+    } //else if (extension == ".bst" && static_cast<unsigned char>(firstByte) == 0x06) {
+      //  firstByte = 0x08;
+      //  modified = true;
+    //}
 
     if (modified) {
         std::ofstream outFile(filePath, std::ios::binary | std::ios::in);
