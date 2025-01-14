@@ -5,7 +5,7 @@
 
                         to
 
-    Ghostbusters The Video Remastered
+    Ghostbusters The Video Game Remastered
 
     by sakis720
 */
